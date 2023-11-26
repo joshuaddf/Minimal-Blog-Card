@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@200&family=Sora&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'sora', sans-serif;
+}
+
+:root {
+    --title: 1.125rem;
+    --body: 0.875rem;
+    --small-text: 0.75rem;
+    --tag: 0.625rem;
+    --cl1: hsl(268, 74%, 55%);
+    --cl2: hsl(265, 86%, 91%);
+    --cl3: hsl(213, 27%, 92%);
+    --cl4: hsl(60, 9%, 98%);
+    --cl5: hsl(0, 0%, 100%);
+    --cl6: hsl(219, 29%, 18%);
+    --cl7: hsl(221, 8%, 46%);
+}
+
+body {
+    background: var(--cl4);
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 2rem;
+    background-color: var(--cl5);
+}
+
+.card-content {
+    box-shadow: 0rem 0.5rem 2rem 0rem hsla(0, 1%, 71%, 0.5);
+    padding: 1.1rem;
+    border-radius: 0.7rem;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 21rem;
+    height: 10rem;
+    border-radius: 1.1rem;
+
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 21rem;
+    margin: 1.1rem 0rem;
+    margin-bottom: 0.2rem;
+}
+
+.title {
+    color: var(--cl1);
+    background-color: var(--cl2);
+    padding: 0.3rem 1rem;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    font-size: var(--tag);
+    font-weight: 600;
+    width: auto;
+}
+
+.text h1 {
+    font-size: var(--title);
+}
+
+.text p {
+    font-size: var(--body);
+    color: var(--cl7);
+    margin-top: 0.5rem;
+}
+
+.name {
+    margin-right: auto;
+    margin-top: 2.5rem;
+    margin-bottom: auto;
+    font-size: 0.75rem;
+    color: var(--cl7);
+}
